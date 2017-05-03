@@ -250,3 +250,7 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+/Übung 1/Übung 1.sln
+/Übung 1/Aufgabe 1/Aufgabe 1.vcxproj.filters
+/Übung 1/Aufgabe 1/Aufgabe 1.vcxproj
+/.gitattributes

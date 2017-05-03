@@ -1,12 +1,12 @@
 // Program converts inch to cm
-#include <iostreaam>
+#include <iostream>
 using std::cout;
 using std::cin;
 using std::endl;
 
 int main()
 {
-	const float INTOCM = 2.54 // cm per inch
+	const float INTOCM = 2.54; // cm per inch
 			float numIn,
 			numCm;
 
@@ -14,10 +14,10 @@ int main()
 	cout << "Enter value in inch "
 		<< "to convert to cm: ";
 
-	cin << numIn;
+	cin >> numIn;
 
 	// convert inch to cm
-	numIn = numIn * INTOCM;
+	numCm = numIn * INTOCM;
 
 	// Output converted value
 	cout << "The speed in cm is " << numCm;

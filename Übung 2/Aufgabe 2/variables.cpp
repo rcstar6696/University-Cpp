@@ -8,7 +8,7 @@ int main()
 	// Variablen Deklaration
 	unsigned short int AnzahlLaenderEuropa = 47;
 	char zweiterBuchstabeNachname = 'e';
-	float Temperatur = -273.15; // kälteste Temperatur
+	float Temperatur = 273.15; // Temperatur
 	string Nachname = "Weffers";
 	int Nenner = 2;
 	unsigned short int Alter = 20;	
@@ -36,7 +36,7 @@ Wertebereich Datentypen
 
 char:					1Byte    Min: -128					Max: 127 bzw ein Zeichen 
 unsigned short int:		2Byte	 Min:  0					Max: 65535
-long int:				4Byte    Min: –2147483647			Max: –2147483647
+long int:				4Byte    Min: â€“2147483647			Max: â€“2147483647
 float:					4Byte    Min: -3.40282e+38			Max: 3.40282e+38
 int:					4Byte    Min: -2147483648			Max: 2147483647  32Bit System
 string:					besitz keinen Wertbereich

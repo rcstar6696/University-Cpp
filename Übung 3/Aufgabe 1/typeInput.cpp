@@ -3,6 +3,19 @@
 
 using namespace std;
 
+/*!
+
+In der main-funktion werden  zuerst die verschiedenen Inputvariablen deklariert
+(string, bool, long und double). Nun gibt es eine ausgabe die den Nutzer auffordert einen Wert in die verschiedenen Variablen zu schreiben.
+Diese geschieht hintereinander mit jedem der genannten Dateitypen. 
+Zum Schluss gibt es eine Ausgabe der getaetigten Eingabe zu jedem Datentyp.
+
+\author Max Weffers
+\date 16.05.2017
+\brief Programm zur Ein- und Ausgabe von eingebenen Werten der verschiedenen Datentypen
+
+*/
+
 // Start der main-Funktion
 int main()
 {

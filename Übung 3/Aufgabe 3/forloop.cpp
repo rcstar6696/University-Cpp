@@ -3,6 +3,25 @@
 
 using namespace std;
 
+/*!
+
+In der Main-Funktion werden zu erst die Variablen definiert fuer die obere und untere Grenze sowie die Ausgabezahl
+Im ersten Schritt wird nach der Untergrenze gefragt und es wird gewartet bis der Nutzer eine Zahl zwischen 1 und 10000 eingibt.
+Der zweite Schritt wäre die Eingabe einer Obergrenze.
+Bei falscher oder nicht logischer Eingabe wird eine Fehlermeldung ausgeben (Fehlermeldung nach jedem Schritt moeglich).
+Eine unlogische Eingabe waere eine obere Grenze die kleiner als die untere Grenze ist.
+Nach Eingabe der Grenzen wird die Untergrenze als erstmoeglich Zahl definiert.
+Ab diesem Schritt befindet sich das Programm in einer Schleife solange die Ausgabezahl innerhalb der Grenzen bleibt.
+In der Schleife wird jede ungerade Zahl ausgeben und vorher ueber eine Divsion mit oder ohne Rest im Ergebnis bestimmt
+Die Ausgabezahl wird dabei im  Schleifenkopf nach jedem Durchgang inkrementiert. Ist die Ausgabezahl ausserhalb der Grenze wird die Schleife beendet
+und das Programm endet.
+
+\author Max Weffers
+\date 16.05.2017
+\brief Programm zur Ausgabe von ungeraden Zahlen zwischen einer Ober- und Untergrenze
+
+*/
+
 // Start der main-Funktion
 int main()
 {
